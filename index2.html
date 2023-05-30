@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box test2</title>
+    <style>
+      body {
+        background-color: tan;
+        font-family: "Rubik Puddles", cursive;
+      }
+
+      .bgcir {
+        background-color: teal;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        position: relative;
+        top: 200px;
+        left: 10px;
+        border: solid black;
+        border-width: 10px 20px;
+        margin: 0;
+        padding: 0;
+      }
+
+      #character {
+        height: 500px;
+        position: absolute;
+      }
+
+      .frbox {
+        background-color: firebrick;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        left: 200px;
+        top: 300px;
+        border: 10px solid black;
+        margin: 0;
+        padding: 0;
+      }
+
+      p {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 75px;
+      }
+
+      #ccid {
+        font-size: 4rem;
+        color: whitesmoke;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        top: 300px;
+        left: 150px;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bgcir">
+      <p><b>Back</b></p>
+    </div>
+    <div>
+      <img
+        src="./Assets/drew_by_skerrus_daceiip.png"
+        id="character"
+        alt="character"
+      />
+      <p id="ccid"><b>Character</b></p>
+    </div>
+    <div class="frbox">
+      <p><b>Front</b></p>
+    </div>
+  </body>
+</html>
